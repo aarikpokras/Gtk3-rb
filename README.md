@@ -9,6 +9,7 @@ Gtk3-rb requires **ruby**, **gtk3**, and a GTK-compatible desktop environment.
 `gem` also must be installed, but that usually comes with Ruby.
 
 Install Ruby:
+
 Arch Linux:
 ```console
 sudo pacman -Syu ruby
