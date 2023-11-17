@@ -7,7 +7,7 @@ labe2=ARGV[2]
 butto=ARGV[3]
 
 if ARGV.first.nil? || ARGV.first.empty?
-  print "Please follow the usage:\n	\e[1;39m./twof.rb\e[0m [TITLE] [LABEL 1] [LABEL 2] [BUTTON]\n"
+  print "Please follow the usage:\n	\e[1;39mgtk3rb-twof\e[0m [TITLE] [LABEL 1] [LABEL 2] [BUTTON]\n"
   exit 1
 else
 
