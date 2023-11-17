@@ -22,9 +22,9 @@ Yum:
 sudo yum install ruby
 ```
 
-Install the `gtk3` gem:
+Install required gems:
 ```console
-gem  install gtk3
+rake
 ```
 
 Just run one of the rb files as an executable to get started.
