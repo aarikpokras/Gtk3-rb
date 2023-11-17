@@ -6,7 +6,7 @@ textL = ARGV[1]
 butto = ARGV[2]
 
 if ARGV.first.nil? || ARGV.first.empty?
-  print "Please follow the usage:\n	\e[1;39m./entry.rb\e[0m [TITLE] [LABEL] [BUTTON]\n"
+  print "Please follow the usage:\n	\e[1;39mgtk3rb-entry\e[0m [TITLE] [LABEL] [BUTTON]\n"
   exit 1
 else
 
