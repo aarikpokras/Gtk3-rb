@@ -14,6 +14,7 @@ def dinfo (gtk_title, gtk_text)
 
   app.signal_connect :activate do |application|
     window = Gtk::ApplicationWindow.new(application)
+    window.set_border_width(12)
     window.set_title "#{gtk_title}"
     label = Gtk::Label.new("#{gtk_text}")
     button = Gtk::Button.new(label: 'Continue')
