@@ -7,7 +7,7 @@ labe2=ARGV[2]
 butto=ARGV[3]
 
 if ARGV.first.nil? || ARGV.first.empty?
-  print "Please follow the usage:\n	\e[1;39m./twof.rb [TITLE] [LABEL 1] [LABEL 2] [BUTTON]\e[0m\n"
+  print "Please follow the usage:\n	\e[1;39m./twof.rb\e[0m [TITLE] [LABEL 1] [LABEL 2] [BUTTON]\n"
   exit 1
 else
 
@@ -16,6 +16,7 @@ def entry (gtk_title, gtk_label1, gtk_label2, gtk_button)
 
   app.signal_connect :activate do |application|
     window=Gtk::ApplicationWindow.new(application)
+    window.set_border_width(12)
     window.set_title "#{gtk_title}"
     label1=Gtk::Label.new("#{gtk_label1}")
     label2=Gtk::Label.new("#{gtk_label2}")
