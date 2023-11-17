@@ -28,5 +28,8 @@ Install required gems:
 ```console
 rake
 ```
-
-Just run one of the rb files as an executable to get started.
+Install Gtk3rb:
+```console
+sudo rake install
+```
+You should then be able to run `gtk3rb-info` and others.
