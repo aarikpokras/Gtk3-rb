@@ -1,7 +1,7 @@
 # Gtk3-rb
 Gtk3-rb is a CLI tool that's kind of like zenity.
 
-It can display GTK+ 3 dialogs in three different methods - An info box, a single-field form, and a two-field form. (I'm still working on it)
+It can display GTK+ 3 dialogs in three different styles - An info box, a single-field form, and a two-field form. (I'm still working on it)
 
 ## Requirements/Installation
 Gtk3-rb requires **ruby**, **gtk3**, and a GTK-compatible desktop environment.
