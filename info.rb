@@ -2,7 +2,7 @@
 require 'gtk3'
 
 if ARGV.first.nil? || ARGV.first.empty?
-  print "Please follow the usage:\n	\e[1;39m./info.rb\e[0m [TITLE] [TEXT]\n"
+  print "Please follow the usage:\n	\e[1;39mgtk3rb-info\e[0m [TITLE] [TEXT]\n"
   exit 1
 else
 
