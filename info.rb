@@ -17,6 +17,7 @@ def dinfo (gtk_title, gtk_text)
     window.set_border_width(12)
     window.set_title "#{gtk_title}"
     label = Gtk::Label.new("#{gtk_text}")
+    spacer = Gtk::Label.new("       ")
     button = Gtk::Button.new(label: 'Continue')
     button.signal_connect('clicked') do
       puts "0"
@@ -25,6 +26,7 @@ def dinfo (gtk_title, gtk_text)
     grid = Gtk::Grid.new
     grid.attach(label, 0, 0, 1, 1)
     grid.attach(button, 0, 2, 1, 1)
+    grid.attach(spacer, 0, 1, 1, 1)
     window.add(grid)
     window.show_all
   end
