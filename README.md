@@ -28,6 +28,7 @@ Install required gems:
 ```console
 rake
 ```
+**If the installation process fails, just try again.**
 Install Gtk3rb:
 ```console
 sudo rake install
