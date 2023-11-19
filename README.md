@@ -23,12 +23,14 @@ Yum:
 sudo yum install ruby
 ```
 
+NOTE: The gems `rvm`, `chruby`, and `rbenv` are required on most systems.
 
 Install required gems:
 ```console
 rake
 ```
 **If the installation process fails, just try again.**
+**If trying again doesn't work, _read the output._ Believe me, you'll find out a lot.**
 Install Gtk3rb:
 ```console
 sudo rake install
